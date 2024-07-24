@@ -24,4 +24,4 @@ autoinstall:
     - curtin in-target -- dpkg -i ./protonvpn-stable-release_1.0.3-3_all.deb
     - curtin in-target -- apt update
     - curtin in-target -- apt install -y proton-vpn-gnome-desktop
-    - curtin in-target -- bash -c 'echo "PS1=\'ubuntu@greenwebpage :autoinstall: \'" >> /home/local-optimum/.bashrc'
+  
